@@ -42,4 +42,9 @@ public class SaxophoneTest {
     public void hasPriceToSell(){
         assertEquals(200, saxophone.getPriceToSell());
     }
+
+    @Test
+    public void saxophoneCanPlay(){
+        assertEquals("KennyG", saxophone.play());
+    }
 }

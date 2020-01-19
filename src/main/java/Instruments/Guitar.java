@@ -1,6 +1,6 @@
 package Instruments;
 
-public class Guitar extends Instrument{
+public class Guitar extends Instrument implements IPlay{
 
     private int strings;
 
@@ -12,6 +12,10 @@ public class Guitar extends Instrument{
 
     public int getStrings(){
         return strings;
+    }
+
+    public String play() {
+        return "It's a song on a guitar";
     }
 
 }

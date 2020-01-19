@@ -1,6 +1,6 @@
 package Instruments;
 
-public class Saxophone extends Instrument {
+public class Saxophone extends Instrument implements IPlay {
 
     private int reed;
 
@@ -12,5 +12,9 @@ public class Saxophone extends Instrument {
 
     public int getReed() {
         return this.reed;
+    }
+
+    public String play() {
+        return "KennyG";
     }
 }

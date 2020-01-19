@@ -1,6 +1,6 @@
 package Instruments;
 
-public class Piano extends Instrument {
+public class Piano extends Instrument implements IPlay {
 
     private int keys;
 
@@ -12,5 +12,9 @@ public class Piano extends Instrument {
 
     public int getKeys() {
         return keys;
+    }
+
+    public String play() {
+        return "Piano man";
     }
 }
