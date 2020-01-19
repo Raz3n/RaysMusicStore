@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e3a6550-0fd5-40b4-bfad-3681c41dbfcd" name="Default Changelist" comment="" />
+    <list default="true" id="6e3a6550-0fd5-40b4-bfad-3681c41dbfcd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +28,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Wcf7Y3I4RRCEpoRmz9p3YEP7HJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,7 +41,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GuitarTest">
+    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeekendHW" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuitarTest.hasStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
       <option name="PACKAGE_NAME" value="" />
@@ -47,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest" />
         <item itemvalue="JUnit.GuitarTest.hasStrings" />
       </list>
     </recent_temporary>
@@ -81,25 +98,25 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="320" y="85" key="#Project_Structure/0.23.1440.793@0.23.1440.793" timestamp="1579453701623" />
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579456855062">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579457830741">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579456855062" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579457381694">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579457830741" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579457687068">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579457381694" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579457381694">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579457687068" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579457687067">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579457381694" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579457381693">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579457687067" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579457687066">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579457381693" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579457381694">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579457687066" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579457687067">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579457381694" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579457687067" />
   </component>
 </project>
