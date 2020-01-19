@@ -1,3 +1,5 @@
+package Instruments;
+
 import Instruments.Saxophone;
 import org.junit.Before;
 import org.junit.Test;
