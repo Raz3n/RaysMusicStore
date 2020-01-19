@@ -9,7 +9,6 @@ public class ItemsTest {
 
     Items item;
     Items item2;
-    Items item3;
 
     @Before
     public void before(){
@@ -19,7 +18,7 @@ public class ItemsTest {
 
     @Test
     public void hasType(){
-        assertEquals("Sheet music", item.getType());
+        assertEquals("Guitar strings", item.getType());
     }
 
     @Test

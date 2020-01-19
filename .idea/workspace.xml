@@ -4,7 +4,11 @@
     <list default="true" id="6e3a6550-0fd5-40b4-bfad-3681c41dbfcd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ItemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ItemsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShopTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,15 @@
       <recent name="Instruments" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest">
+  <component name="RunManager" selected="JUnit.All in WeekendHW">
+    <configuration name="All in WeekendHW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeekendHW" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,11 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemsTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemsTest.hasPriceToSell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ItemsTest" />
-      <option name="METHOD_NAME" value="hasType" />
+      <option name="METHOD_NAME" value="hasPriceToSell" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,23 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest.stockStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekendHW" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="stockStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.All in WeekendHW" />
         <item itemvalue="JUnit.ShopTest.canAddItemToStock" />
-        <item itemvalue="JUnit.ShopTest.stockStartsEmpty" />
-        <item itemvalue="JUnit.ItemsTest.hasType" />
         <item itemvalue="JUnit.ItemsTest" />
+        <item itemvalue="JUnit.ItemsTest.hasPriceToSell" />
+        <item itemvalue="JUnit.ShopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,21 +148,21 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.793@0.23.1440.793" timestamp="1579459645052" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579461490859">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579462411025">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579461490859" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579461490859">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579462411025" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579462411025">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579461490859" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579461490858">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579462411025" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579462411024">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579461490858" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579461490859">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579462411024" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579462411025">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579461490859" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579462411025" />
   </component>
 </project>
