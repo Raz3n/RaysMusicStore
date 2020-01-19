@@ -1,6 +1,9 @@
 package Instruments;
 
-public abstract class Instrument {
+
+import ISell.ISell;
+
+public abstract class Instrument implements ISell {
 
     private String colour;
     private String material;
@@ -36,4 +39,10 @@ public abstract class Instrument {
     public int getPriceToSell() {
         return priceToSell;
     }
+
+    public int markUp() {
+        return priceToSell - priceWhenBought;
+    }
+
+
 }

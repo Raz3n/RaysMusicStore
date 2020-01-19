@@ -1,4 +1,6 @@
-public class Items implements ISell{
+import ISell.ISell;
+
+public class Items implements ISell {
 
     private String type;
     private int priceWhenBought;

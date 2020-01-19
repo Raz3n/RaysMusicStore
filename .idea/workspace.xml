@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6e3a6550-0fd5-40b4-bfad-3681c41dbfcd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ISell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ISell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Instrument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Items.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Items.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ItemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ItemsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShopTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,10 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="Instruments" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in WeekendHW">
+  <component name="RunManager" selected="JUnit.ShopTest.canRemoveItemFromStock">
     <configuration name="All in WeekendHW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,15 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekendHW" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShopTest.canAddItemToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,13 +96,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canRemoveItemFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeekendHW" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canRemoveItemFromStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in WeekendHW" />
+        <item itemvalue="JUnit.ShopTest.canRemoveItemFromStock" />
         <item itemvalue="JUnit.ShopTest.canAddItemToStock" />
+        <item itemvalue="JUnit.All in WeekendHW" />
         <item itemvalue="JUnit.ItemsTest" />
         <item itemvalue="JUnit.ItemsTest.hasPriceToSell" />
-        <item itemvalue="JUnit.ShopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,29 +146,37 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="320" y="85" key="#Project_Structure/0.23.1440.793@0.23.1440.793" timestamp="1579453701623" />
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579460650511">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579463290994">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579460650511" />
-    <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579459645052">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579463290994" />
+    <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579462660355">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.793@0.23.1440.793" timestamp="1579459645052" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579462411025">
+    <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.793@0.23.1440.793" timestamp="1579462660355" />
+    <state x="458" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579463167520">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579462411025" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579462411025">
+    <state x="458" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.793@0.23.1440.793" timestamp="1579463167520" />
+    <state x="458" y="173" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579462567711">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579462411025" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579462411024">
+    <state x="458" y="173" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.793@0.23.1440.793" timestamp="1579462567711" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579463491093">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579462411024" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579462411025">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579463491093" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579463491092">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579462411025" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579463491092" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579463491092">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579463491092" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579463491093">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579463491093" />
   </component>
 </project>

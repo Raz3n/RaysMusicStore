@@ -1,3 +1,4 @@
+import ISell.ISell;
 
 import java.util.ArrayList;
 
@@ -13,8 +14,8 @@ public class Shop {
         return stock.size();
     }
 
-    public void addItemToStock(ISell items) {
-        this.stock.add(items);
+    public void addItemToStock(ISell item) {
+        this.stock.add(item);
     }
 
     public void removeItemFromStock(ISell items) {
