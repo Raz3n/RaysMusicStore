@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e3a6550-0fd5-40b4-bfad-3681c41dbfcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/PianoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SaxophoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Instruments/SaxophoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,46 +49,40 @@
       <recent name="Instruments" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.stockStartsEmpty">
-    <configuration name="GuitarTest.guitarCanPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShopTest">
+    <configuration name="ItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.GuitarTest" />
-      <option name="METHOD_NAME" value="guitarCanPlay" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ItemsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemsTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeekendHW" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ItemsTest" />
+      <option name="METHOD_NAME" value="hasType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Instruments in WeekendHW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Instruments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PianoTest.pianoCanPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.canAddItemToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeekendHW" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.PianoTest" />
-      <option name="METHOD_NAME" value="pianoCanPlay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SaxophoneTest.saxophoneCanPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekendHW" />
-      <option name="PACKAGE_NAME" value="Instruments" />
-      <option name="MAIN_CLASS_NAME" value="Instruments.SaxophoneTest" />
-      <option name="METHOD_NAME" value="saxophoneCanPlay" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canAddItemToStock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.ShopTest.canAddItemToStock" />
         <item itemvalue="JUnit.ShopTest.stockStartsEmpty" />
-        <item itemvalue="JUnit.Instruments in WeekendHW" />
-        <item itemvalue="JUnit.SaxophoneTest.saxophoneCanPlay" />
-        <item itemvalue="JUnit.PianoTest.pianoCanPlay" />
-        <item itemvalue="JUnit.GuitarTest.guitarCanPlay" />
+        <item itemvalue="JUnit.ItemsTest.hasType" />
+        <item itemvalue="JUnit.ItemsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,29 +138,29 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="320" y="85" key="#Project_Structure/0.23.1440.793@0.23.1440.793" timestamp="1579453701623" />
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579459138719">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579460650511">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579459138719" />
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579460650511" />
     <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579459645052">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="494" y="286" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.793@0.23.1440.793" timestamp="1579459645052" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579459964944">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579461490859">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579459964944" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579459964943">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579461490859" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579461490859">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579459964943" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579459964942">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579461490859" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579461490858">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579459964942" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579459964944">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579461490858" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579461490859">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579459964944" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579461490859" />
   </component>
 </project>

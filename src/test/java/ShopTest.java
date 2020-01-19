@@ -4,6 +4,7 @@ import Instruments.Saxophone;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import static org.junit.Assert.assertEquals;
 
 public class ShopTest {
@@ -23,6 +24,18 @@ public class ShopTest {
 
     @Test
     public void stockStartsEmpty(){
+        assertEquals(0, shop.getStockAmount());
+    }
+
+    @Test
+    public void canAddItemToStock(){
+        shop.addItemToStock(guitar);
+        assertEquals(1, shop.getStockAmount());
+    }
+
+    @Test
+    public void canRemoveItemFromStock(){
+        shop.removeItemFromStock((piano);
         assertEquals(0, shop.getStockAmount());
     }
 }

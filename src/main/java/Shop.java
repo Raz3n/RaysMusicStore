@@ -12,13 +12,12 @@ public class Shop {
         return stock.size();
     }
 
-    public void addItemToStock(ISell item) {
-        this.stock.add(item);
+    public void addItemToStock(ISell items) {
+        this.stock.add(items);
     }
 
-    public void removeItemFromStock(ISell item) {
-        this.stock.remove(item);
-
+    public void removeItemFromStock(ISell items) {
+        this.stock.remove(items);
     }
 }
 
